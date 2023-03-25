@@ -29,7 +29,7 @@ Select_box_Subject.send_keys("blablablablbalbalb")
 Select_box_message=driver.find_element(By.NAME,"your-message")
 Select_box_message.click()
 time.sleep(1)
-Select_box_message.send_keys("3ami bu mas3od akal kell shi w ma 5ala shi")
+Select_box_message.send_keys("test")
 
 driver.find_element(By.CLASS_NAME,"wpcf7-submit").click()
 time.sleep(1)
