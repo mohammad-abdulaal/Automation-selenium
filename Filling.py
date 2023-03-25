@@ -24,7 +24,7 @@ Select_box_email.send_keys("safdanger@live.com")
 Select_box_Subject=driver.find_element(By.NAME,"your-subject")
 Select_box_Subject.click()
 time.sleep(1)
-Select_box_Subject.send_keys("blablablablbalbalb")
+Select_box_Subject.send_keys("blblblblbblblblblblbl")
 
 Select_box_message=driver.find_element(By.NAME,"your-message")
 Select_box_message.click()
